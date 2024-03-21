@@ -6,7 +6,7 @@ import 'package:flutter_application_1/models/shop.dart';
 import 'package:provider/provider.dart';
 
 class ShopPage extends StatelessWidget {
-  const ShopPage({Key? key}) : super(key: key);
+  const ShopPage({super.key});
 
   @override
   Widget build(BuildContext context) {

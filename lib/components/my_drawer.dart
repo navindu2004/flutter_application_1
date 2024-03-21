@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/components/my_list_tile.dart';
 
 class MyDrawer extends StatelessWidget {
-  const MyDrawer({Key? key}) : super(key: key);
+  const MyDrawer({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +16,7 @@ class MyDrawer extends StatelessWidget {
             DrawerHeader(
               child: Center(
                 child: Image.asset(
-                  'assets/AKNew.jpg',
+                  'assets/AKNew.png',
                   height: 100,
                 ),
               ),

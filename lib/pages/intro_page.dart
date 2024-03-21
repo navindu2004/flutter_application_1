@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/components/my_button.dart';
 
 class IntroPage extends StatelessWidget {
-  const IntroPage({Key? key}) : super(key: key);
+  const IntroPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +22,7 @@ class IntroPage extends StatelessWidget {
             const SizedBox(height: 25),
 
             // title
-            Text(
+            const Text(
               "Arabian Knights",
               style: TextStyle(
                 fontSize: 24,

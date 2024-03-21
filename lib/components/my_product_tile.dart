@@ -17,7 +17,7 @@ class MyProductsTile extends StatelessWidget {
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        content: Text('Add this item to your cart?'),
+        content: const Text('Add this item to your cart?'),
         actions: [
           // cancel button
           MaterialButton(
@@ -97,7 +97,7 @@ class MyProductsTile extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     // product price
-                    Text('\$' + product.price.toStringAsFixed(2)),
+                    Text('\$${product.price.toStringAsFixed(2)}'),
 
                     // add to cart button
                     Container(

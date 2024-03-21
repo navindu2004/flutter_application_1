@@ -13,8 +13,8 @@ class SettingsPage extends StatelessWidget {
           backgroundColor: Theme.of(context).colorScheme.background,
           elevation: 0,
         ),
-        body: ListTile(
-          title: const Text('Dark Mode'),
+        body: const ListTile(
+          title: Text('Dark Mode'),
           trailing: ThemeToggleButton(),
         ),
         bottomNavigationBar: MyNavigationBar(

@@ -4,7 +4,7 @@ import 'package:flutter_application_1/components/my_textfield.dart';
 import 'package:flutter_application_1/components/square.tile.dart';
 
 class LoginPage extends StatelessWidget {
-  LoginPage({Key? key}) : super(key: key);
+  LoginPage({super.key});
 
   // text editing controllers
   final usernameController = TextEditingController();
@@ -127,13 +127,13 @@ class LoginPage extends StatelessWidget {
               const SizedBox(height: 50),
 
               // google + apple sign in buttons
-              Row(
+              const Row(
                 mainAxisAlignment: MainAxisAlignment.center,
-                children: const [
+                children: [
                   // google button
                   SqareTile(imagePath: 'assets/google.png'),
 
-                  const SizedBox(width: 10),
+                  SizedBox(width: 10),
 
                   // apple button
                   SqareTile(imagePath: 'assets/apple.png')

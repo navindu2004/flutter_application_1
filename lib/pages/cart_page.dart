@@ -6,7 +6,7 @@ import 'package:flutter_application_1/models/shop.dart';
 import 'package:provider/provider.dart';
 
 class CartPage extends StatelessWidget {
-  const CartPage({Key? key}) : super(key: key);
+  const CartPage({super.key});
 
   // remove item from cart
   void removeItemFromCart(BuildContext context, Product product) {
@@ -57,7 +57,7 @@ class CartPage extends StatelessWidget {
           backgroundColor: Colors.transparent,
           elevation: 0,
           foregroundColor: Theme.of(context).colorScheme.inversePrimary,
-          title: Text("Cart Page"),
+          title: const Text("Cart Page"),
         ),
         backgroundColor: Theme.of(context).colorScheme.background,
         body: Column(

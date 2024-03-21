@@ -3,7 +3,7 @@ import 'package:flutter_application_1/components/my_signup_page_button.dart';
 import 'package:flutter_application_1/components/my_textfield.dart';
 
 class RegisterPage extends StatelessWidget {
-  RegisterPage({Key? key}) : super(key: key);
+  RegisterPage({super.key});
 
   // Text editing controllers
   final usernameController = TextEditingController();
